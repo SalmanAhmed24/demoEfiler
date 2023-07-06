@@ -1,0 +1,105 @@
+.form-wrap{
+    width: 70%;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #a2a2a2;
+  }
+  .form-h1{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .form-h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  input{
+    padding:5px 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border:1px solid #a2a2a2
+  }
+  .btn-wrap{
+    display: flex;
+    margin: 10px 0px;
+  }
+  .btn-wrap > button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border:1px solid #000;
+    margin-right: 10px;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+  }
+  .btn-wrap > button:hover{
+    background-color: #fff;
+    color: #000;
+  }
+  .btn-wrap > button:last-child{
+    margin-right: 0px;
+  }
+  .comment-wrap{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .comment-wrap > h3{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .comments{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .comments > p{
+    margin:5px 0px;
+  }
+  .comment-r{
+    font-weight: bold;
+  }
+  .prev-comments > h3{
+    margin: 10px 0px;
+    text-transform: uppercase;
+  }
+  .newBtn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border:1px solid #000;
+    margin-right: 10px;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;
+  }
+  .newBtn:hover{
+    background-color: #fff;
+    color: #000;
+  }
+  .viewWrap{
+    display: flex;
+    justify-content: space-between;
+  }
+  .viewWrap > button{
+    align-self: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    border:1px solid #000;
+    margin-right: 10px;
+    transition: 0.3s ease-in-out;
+    font-size: 16px;   
+  }
+  .viewWrap > button:hover{
+    background-color: #fff;
+    color: #000;
+  }
+  .formNew{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
